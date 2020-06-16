@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    h1 {font-style: italic; background-color: burlywood;}
+    p {background-color: rgb(247, 244, 63);}
+    span {font-size: larger;}
+    </style>
 </head>
 <body>
+    <span>CRUD</span>
+    <a href = http://127.0.0.1:8000/create/>새글쓰기</a>
     <h1>{{ post.title }}</h1>
     <p>게시글 번호(id): {{ post.pk }}</p>
     <p>글쓴이: {{ post.author }}</p>
